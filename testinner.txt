@@ -1,0 +1,147 @@
+
+    <div id="header">
+        <div id="h_wrap">
+            <span id="h_logo">
+                xerox
+            </span>
+
+            <div id="h_nav">
+                <ul>
+                    <li id="h_nav1">
+                        <span>Printers & Supplies</span>
+                        <div class="h_navMenu" id="nav_menu1">
+                            메뉴1
+                        </div>
+                    </li>
+                    <li id="h_nav2">
+                        <span>Solutions & Services</span>
+                        <div class="h_navMenu" id="nav_menu2">
+                            메뉴2
+                        </div>
+                    </li>
+                    <li id="h_nav3">
+                        <span>Customer Support</span>
+                        <div class="h_navMenu" id="nav_menu3">
+                            메뉴3
+                        </div>
+                    </li>
+                    <li id="h_nav4">
+                        <span>Partners</span>
+                        <div class="h_navMenu" id="nav_menu4">
+                            메뉴4
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="h_menu">
+                <ul>
+                    <li>
+                        <span id="h_nav_search">Search</span>
+                    </li>
+                    <li>
+                        <span>Account</span>
+                    </li>
+                    <li>
+                        <span>Log in</span>
+                    </li>
+                    <li>
+                        <span>Shop</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div id="m_nav">
+                <button id="h_slide_btn">≡</button>
+                <script>
+                    $('#h_slide_btn').click(function() {
+                        $("#m_menu").toggle('slide');
+                        $("#m_sub").toggle('slide');
+                    });
+                </script>
+            </div>
+
+        </div>
+    </div>
+
+    <div id=m_menu>
+        <ul>
+            <li>
+                All Printers
+            </li>
+            <li>
+                Scanners
+            </li>
+            <li>
+                All Printers
+            </li>
+            <li>
+                Shop Online
+            </li>
+            <li>
+                Featured Software
+            </li>
+            <li>
+                Office Printing Solutuins
+            </li>
+            <li>
+                Industy
+            </li>
+            <li>
+                Role
+            </li>
+            <li>
+                Business Service
+            </li>
+            <li>
+                Production Print Solution
+            </li>
+            <li>
+                Small and Medium Buiness Solutions
+            </li>
+            <li>
+                IT Service
+            </li>
+            <li>
+                Solutions Innovation
+            </li>
+            <li>
+                Insights
+            </li>
+            <li>
+                All Support and Drivers
+            </li>
+            <li>
+                MySupport
+            </li>
+            <li>
+                Support Community Forum
+            </li>
+            <li>
+                Contact Us
+            </li>
+            <li>
+                Sell Xerox products and services:
+            </li>
+            <li>
+                Log in to your partner portal:
+            </li>
+            <li>
+                Buy products and service
+            </li>
+            <li>
+                Become a partner
+            </li>
+            <li>
+                Jobs at Xerox Agents
+            </li>
+        </ul>
+    </div>
+
+    <div id="m_sub">
+        <ul>
+            <li><span>Account</span></li>
+            <li><span>Log in</span></li>
+            <li><span>Shop</span></li>
+        </ul>
+    </div>
