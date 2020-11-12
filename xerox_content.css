@@ -1,0 +1,131 @@
+#content {}
+
+#main_photo {
+    background-color: red;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    background-image: url(background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 190px;
+    padding-bottom: 150px;
+    margin-bottom: 18px;
+}
+
+#main_photo:hover div {
+    background-color: #a83030;
+}
+
+#main_photo span {
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: black;
+}
+
+#main_photo div {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    display: inline-block;
+    color: white;
+    background-color: #ee3b3b;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 35px;
+}
+
+
+.redbtn {
+    background-color: #ee3b3b;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-family: 'Oswald', sans-serif;
+    background-size: cover;
+}
+
+.redbtn:hover {
+    background-color: #a83030;
+}
+
+
+@media (min-width: 778px) {}
+
+@media (max-width: 778px) {
+
+}
+
+
+
+#shop_div{
+    height: 280px;
+    background-image: url(image3.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 18px;
+}
+#shop_div h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+#shop_div h2{
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size:40px;
+}
+
+
+#news_div{
+    display: inline-block;
+}
+
+.newsform img{
+    width: 100%;
+    height: 100%;
+}
+
+.newsform{
+    float: left;
+    width: 30%;
+    margin-left: 25px;
+}
+
+.newsform a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.newsform a:hover{
+    border-bottom: 2px solid black;
+}
+
+@media (max-width: 800px) {
+    .newsform{
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+        display: block;
+        float: none;
+        margin-bottom: 15px;
+    }
+    
+    .newsform img{
+        height: 250px;
+        width: 80%;
+    }
+}
